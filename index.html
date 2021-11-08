@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=UTF-8 />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
+    <title>The VOID Market</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="/img/favicon.svg">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MGVGPYL2W8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MGVGPYL2W8');
+    </script>
+  </head>
+  <body>
+    <div id="canvas"></div>
+
+    <div class="text-box">
+      <div class="heading">Welcome to the VOID</div>
+      <div class="button-wrapper">
+        <div class="button container">
+          <form id="singular-form" action="https://formsubmit.co/andy@voidmarket.io" method="POST"> 
+            <input type="hidden" name="_next" value="https://enterthevoid.io/">
+            <input type="hidden" name="_captcha" value="false">
+              <button class="shown" type="button" id="trigger">ENTER</button> 
+              <div id="input-container">
+                  <input type="email" placeholder="E-mail" name="message" required>
+                  <button type="submit">Notify Me ></button>
+              </div> 
+              <div id="success">Thank you!</div>
+  
+          </form>  
+      </div>
+      </div>
+      <div class="social-wrapper">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/90ef5c6921.js" crossorigin="anonymous"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/draw.js"></script>
+  </body>
+</html>
